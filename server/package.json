@@ -1,0 +1,24 @@
+{
+  "name": "screen-server",
+  "version": "1.0.0",
+  "description": "server to send screenshots to chromecast",
+  "main": "main.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./main.ts"
+  },
+  "dependencies": {
+    "@types/node-cron": "^2.0.3",
+    "@types/puppeteer": "^2.0.1",
+    "@types/serve-handler": "^6.1.0",
+    "castv2-client": "^1.2.0",
+    "chromecast-api": "https://github.com/Navrin/chromecast-api",
+    "node-cron": "^2.0.3",
+    "node-ip": "^0.1.2",
+    "node-webshot": "^1.0.3",
+    "puppeteer": "^3.0.2",
+    "serve-handler": "^6.1.2",
+    "ts-node": "^8.9.1"
+  }
+}
