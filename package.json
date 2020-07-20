@@ -44,7 +44,7 @@
     "@typescript-eslint/parser": "^2.24.0",
     "eslint-plugin-react": "^7.19.0",
     "history": "^4.10.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.25.1",
     "moment-timezone": "^0.5.28",
     "node-cron": "^2.0.3",
